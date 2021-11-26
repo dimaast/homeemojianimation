@@ -1,0 +1,126 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Pt Sans', serif;
+  margin: 0 auto;
+  width: 1280px;
+  background-color: #FF83C6;
+}
+
+.emoji1 {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 150px;
+}
+
+.emoji2 {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 350px;
+}
+
+.emoji3 {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 550px;
+}
+
+.emoji4 {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 750px;
+}
+
+.emoji5 {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 950px;
+}
+
+.ball {
+width: 160px;
+height: 160px;
+display: block;
+position: absolute;
+background: url('../img/Smile-Orange-Shape.png');
+}
+
+.smile1 {
+width: 160px;
+height: 160px;
+display: block;
+position: absolute;
+background: url('../img/120.png');
+animation: smile1 1s steps(1) infinite;
+}
+
+@keyframes smile1 {
+  0% {background-position: 0px 0px;}
+  38% {background-position: -160px 0px;}
+  75% {background-position: -320px 0px;}
+}
+
+.smile2 {
+width: 160px;
+height: 160px;
+display: block;
+position: absolute;
+background: url('../img/130.png');
+animation: smile2 1s steps(1) infinite;
+}
+
+@keyframes smile2 {
+  0% {background-position: 0px 0px;}
+  38% {background-position: -160px 0px;}
+  75% {background-position: -320px 0px;}
+}
+
+.smile3 {
+width: 160px;
+height: 160px;
+display: block;
+position: absolute;
+background: url('../img/140.png');
+animation: smile3 1s steps(1) infinite;
+}
+
+@keyframes smile3 {
+  0% {background-position: 0px 0px;}
+  38% {background-position: -160px 0px;}
+  75% {background-position: -320px 0px;}
+}
+
+.smile4 {
+width: 160px;
+height: 160px;
+display: block;
+position: absolute;
+background: url('../img/150.png');
+animation: smile3 1s steps(1) infinite;
+}
+
+@keyframes smile4 {
+  0% {background-position: 0px 0px;}
+  38% {background-position: -160px 0px;}
+  75% {background-position: -320px 0px;}
+}
+
+.smile5 {
+width: 160px;
+height: 160px;
+display: block;
+position: absolute;
+background: url('../img/160.png');
+animation: smile3 1s steps(1) infinite;
+}
+
+@keyframes smile5 {
+  0% {background-position: 0px 0px;}
+  38% {background-position: -160px 0px;}
+  75% {background-position: -320px 0px;}
+}
